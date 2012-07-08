@@ -22,7 +22,7 @@ def bode_plot(v,phase=None,**kwargs):
         plt.axis(ax)
 
         plt.grid(True)
-        # turn on the minor gridlines to give that awesome log-scaled look
+        # turn on the minor gridlines for log-scaled look
         plt.grid(True,which='minor')
         plt.ylabel("Gain (dB)")
 
